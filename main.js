@@ -55,5 +55,5 @@ switch (opcion) {
 }
 // FASE 5: Bucles e Iteración 
 for (let i = 1; i < 10; i++) {
-    console.log(Iteración número: ${i});
+    console.log(`Iteración número: ${i}`);
 }
