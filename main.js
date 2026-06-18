@@ -14,7 +14,7 @@ console.log("Tipo de esEstudiante:", typeof esEstudiante);
 
 // FASE 3: Literales de Cadena y Plantillas 
 let nombre = "Deysi";
-let saludo = Hola ${nombre}, tienes ${edad} años.;
+let saludo = `Hola ${nombre}, tienes ${edad} años.`;
 console.log(saludo);
 
 let mensaje = `
