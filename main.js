@@ -11,3 +11,16 @@ console.log("Tipo de edad:", typeof edad);
 
 console.log("Es estudiante:", esEstudiante);
 console.log("Tipo de esEstudiante:", typeof esEstudiante);
+
+// FASE 3: Literales de Cadena y Plantillas 
+let nombre = "Deysi";
+let saludo = Hola ${nombre}, tienes ${edad} años.;
+console.log(saludo);
+
+let mensaje = `
+Bienvenida al laboratorio.
+Estamos aprendiendo JavaScript.
+Las plantillas respetan los saltos de línea.
+`;
+
+console.log(mensaje);
