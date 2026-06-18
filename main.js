@@ -53,3 +53,7 @@ switch (opcion) {
     default:
         console.log("Opción no válida");
 }
+// FASE 5: Bucles e Iteración 
+for (let i = 1; i < 10; i++) {
+    console.log(Iteración número: ${i});
+}
